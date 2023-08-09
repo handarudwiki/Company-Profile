@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company</title>
+  </head>
+
+  <body>
+    <div class="navbar-fixed">
+      <nav class="blue darken-3">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Handaru</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <ul class="sidenav" id="mobile-nav">
+              <li><a href="">About us</a></li>
+              <li><a href="">Client</a></li>
+              <li><a href="">Servis</a></li>
+              <li><a href="">portfolio</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-nav">
+              <li><a href="">About us</a></li>
+              <li><a href="">Client</a></li>
+              <li><a href="">Servis</a></li>
+              <li><a href="">portfolio</a></li>
+              <li><a href="">Contact</a></li>
+    </ul>
+
+    <!--JavaScript at end of body for optimized loading-->
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      const sideNav = document.querySelectorAll('.sidenavbar');
+      M.Sidenav.init(sideNav);
+      console.log('oke');
+    </script>
+  </body>
+</html>
